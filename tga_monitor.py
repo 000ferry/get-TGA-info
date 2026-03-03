@@ -34,13 +34,13 @@ import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
 # 设置 SMTP 信息
-os.environ['SMTP_USER'] = 'abc2440051@163.com'
-os.environ['SMTP_PASSWORD'] = 'ZT49dVYeBbEgUHYF'
+os.environ['SMTP_USER'] = '1234567890@163.com'
+os.environ['SMTP_PASSWORD'] = '1234567890'
 os.environ['SMTP_HOST'] = 'smtp.163.com'
 os.environ['SMTP_PORT'] = '465'
 
 # 设置接收人
-os.environ['TGA_RECIPIENT'] = 'abc244005@126.com'
+os.environ['TGA_RECIPIENT'] = '1234567890@126.com'
 
 PAGE_URL = (
     "https://fiscaldata.treasury.gov/datasets/daily-treasury-statement/"
