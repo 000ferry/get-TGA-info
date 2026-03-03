@@ -1,0 +1,32 @@
+ssh登录
+ssh -p 12345 root@103.236.0.1
+ssh -p 67890 root@103.236.0.1
+
+后台运行
+nohup python3 -u ~/tga_monitor.py >> ~/tga_monitor.log 2>&1 &
+
+日志
+tail -f ~/tga_monitor.log
+
+查看后台
+ps aux | grep tga_monitor.py
+
+杀掉进程
+kill <PID>
+强制杀掉进程
+kill -9 <PID>
+
+查看noup进程
+ps aux | grep python3
+
+nano编辑
+nano tga_monitor.py
+
+cat查看文件内容
+
+
+
+
+
+win系统本地上传py脚本：
+scp -P 65274 tga_monitor.py root@103.236.84.120:/root/

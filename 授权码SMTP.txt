@@ -1,0 +1,5 @@
+export SMTP_USER='a12345'
+export SMTP_PASSWORD='111111111111'
+export SMTP_HOST='smtp.163.com'
+export SMTP_PORT='465'
+export TGA_RECIPIENT='12345'
